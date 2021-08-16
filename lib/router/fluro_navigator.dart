@@ -31,7 +31,7 @@ class NavigatorUtils {
         arguments: arguments,
       ),
     ).then((Object? result) {
-      // 页面返回result为null
+      // ページは結果をnullとして返します
       if (result == null) {
         return;
       }
@@ -52,12 +52,7 @@ class NavigatorUtils {
     unfocus();
     Navigator.pop<Object>(context, result);
   }
-  
-  /// WebViewページにジャンプします
-  static void goWebViewPage(BuildContext context, String title, String url) {
-    //fluro 漢字をサポートしていません。変換する必要があります
-    push(context, '${Routes.webViewPage}?title=${Uri.encodeComponent(title)}&url=${Uri.encodeComponent(url)}');
-  }
+
 
   static void unfocus() {
     // 次の方法を使用すると、不要なビルドがトリガーされます。

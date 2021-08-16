@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_water/res/colors.dart';
 import 'package:rxdart/rxdart.dart';
-
 import 'device_utils.dart';
 
 

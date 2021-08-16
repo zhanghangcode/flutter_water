@@ -1,6 +1,7 @@
 import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_water/home/home.dart';
+import 'package:flutter_water/login/page/login_page.dart';
 import 'package:flutter_water/provider/locale_provider.dart';
 import 'package:flutter_water/provider/theme_provider.dart';
 import 'package:flutter_water/router/routers.dart';
@@ -77,7 +78,7 @@ class MyApp extends StatelessWidget {
       theme: theme ?? provider.getTheme(),
       darkTheme: provider.getTheme(isDarkMode: true),
       themeMode: provider.getThemeMode(),
-      home: home ?? const Home(),
+      home: home ?? const LoginPage(),
       onGenerateRoute: Routes.router.generator,
       // localizationsDelegates: DeerLocalizations.localizationsDelegates,
       // supportedLocales: DeerLocalizations.supportedLocales,
