@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
 import 'package:keyboard_actions/keyboard_actions_config.dart';
 
-/// 本项目通用的布局（SingleChildScrollView）
+/// 共通のレイアウト（SingleChildScrollView）
 /// 1.底部存在按钮
 /// 2.底部没有按钮
 class MyScrollView extends StatelessWidget {
