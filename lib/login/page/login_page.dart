@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> with ChangeNotifierMixin<LoginPag
 
   List<Widget> get _buildBody => <Widget>[
     Text(
-      "登録",
+      "登11録",
       style: TextStyles.textBold26,
     ),
     Gaps.vGap16,
